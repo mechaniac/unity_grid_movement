@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87113047cfa62b4e81ed9e6b8083c63, type: 3}
+  m_Name: Queen
+  m_EditorClassIdentifier: 
+  type: 2
+  pixelColor: {r: 0, g: 0.2509804, b: 0.020915015, a: 1}
+  enemyPixelColor: {r: 0.25, g: 0, b: 0, a: 1}
+  unitPrefab: {fileID: 4052660177888025240, guid: d66a90b79467bd14d8bde568379b93be, type: 3}
+  maxHealth: 2

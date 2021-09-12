@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87113047cfa62b4e81ed9e6b8083c63, type: 3}
+  m_Name: Pawn
+  m_EditorClassIdentifier: 
+  type: 6
+  pixelColor: {r: 0, g: 0.5019608, b: 0.04183003, a: 1}
+  enemyPixelColor: {r: 0.5, g: 0, b: 0, a: 1}
+  unitPrefab: {fileID: 4208686756307153624, guid: c078864f9df9a8646a5383804ed9272d, type: 3}
+  maxHealth: 5

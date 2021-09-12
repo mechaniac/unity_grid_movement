@@ -1,0 +1,96 @@
+{
+    "name": "MyInputActions",
+    "maps": [
+        {
+            "name": "playerMap",
+            "id": "7ac87063-8007-4587-9c81-85b63623ecd6",
+            "actions": [
+                {
+                    "name": "MoveCursor",
+                    "type": "Value",
+                    "id": "6aec3c7c-52c3-4b4c-b445-f01569869f9d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveButton",
+                    "type": "Button",
+                    "id": "de687532-9606-4749-a801-43bc31becf01",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "NextUnit",
+                    "type": "Button",
+                    "id": "ba227290-91f8-4ce3-944e-2f2753f06f42",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PreviousUnit",
+                    "type": "Button",
+                    "id": "e9309f5f-7d46-48c6-a2d9-1c69beada243",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7208fe7e-59d9-4358-bf4b-8ea77fa5a82b",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "MoveCursor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "add118e1-8bb8-4f4d-9a93-0edfcf31a10e",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "MoveButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b5586fe-8868-422c-b2b1-a09d95bdd5bb",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextUnit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "72373644-8469-4623-bf64-333be7629359",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PreviousUnit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": []
+        }
+    ]
+}
